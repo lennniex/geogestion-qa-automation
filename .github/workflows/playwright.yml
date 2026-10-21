@@ -1,8 +1,8 @@
 name: Playwright QA - GeoGestión
 
+# Se ejecuta a mano desde la pestaña Actions (botón "Run workflow").
+# El flujo completo con captcha se corre localmente: npm run test:captcha
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 jobs:
