@@ -1,0 +1,15 @@
+# Dependencias y resultados
+node_modules/
+reports/
+playwright-report/
+test-results/
+blob-report/
+.env
+*.log
+
+# Documentos de la entrega (se envían por correo, no van al repositorio)
+*.docx
+docs/build-entrega.js
+docs/merge-entrega.py
+docs/build-html.py
+docs/reporte-bugs.artifact.html
